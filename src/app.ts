@@ -2,9 +2,9 @@ import fastify from "fastify";
 import { ZodError } from "zod";
 import { env } from "./env";
 import fastifyJwt from "@fastify/jwt";
-import { usersRoutes } from "./http/controllers/users/routes";
-import { gymsRoutes } from "./http/controllers/gyms/routes";
-import { checkInRoutes } from "./http/controllers/check-in/routes";
+import { usersRoutes } from "./http/controllers/users/1-routes";
+import { gymsRoutes } from "./http/controllers/gyms/1-routes";
+import { checkInRoutes } from "./http/controllers/check-in/1-routes";
 
 export const app = fastify();
 
