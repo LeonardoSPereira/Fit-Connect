@@ -23,7 +23,7 @@
     "@types/supertest": "6.0.2",
     "@vitest/coverage-v8": "2.0.3",
     "@vitest/ui": "2.0.3",
-    "prisma": "5.16.2",
+    "prisma": "5.17.0",
     "supertest": "7.0.0",
     "tsup": "8.1.0",
     "tsx": "4.16.2",
@@ -34,7 +34,7 @@
   "dependencies": {
     "@fastify/cookie": "9.3.1",
     "@fastify/jwt": "8.0.1",
-    "@prisma/client": "5.16.2",
+    "@prisma/client": "5.17.0",
     "bcryptjs": "2.4.3",
     "dayjs": "1.11.11",
     "dotenv": "16.4.5",
